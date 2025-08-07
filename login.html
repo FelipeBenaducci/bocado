@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <main>
+    <form id="loginForm" class="login-form">
+      <header>
+        <img src="imagens/Logo.png" width="50" alt="Logo" />
+        <h2>Bem-vindo</h2>
+      </header>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="exemplo@gmail.com" />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Senha</label>
+        <div class="password-wrapper">
+          <input type="password" id="password" name="password" required placeholder="Digite sua senha" />
+          <span class="toggle-password"></span>
+        </div>
+        <a class="senha" href="recuperarsenha.html">Recuperar senha</a>
+      </div>
+
+      <div class="divider">
+        <span style="display: inline-block; width: 40%; border-top: 1px solid #fbeeee; vertical-align: middle;"></span>
+        <span style="color: #fbeeee ;margin: 0 10px; vertical-align: middle;">ou</span>
+        <span style=" display: inline-block; width: 40%; border-top: 1px solid #fbeeee; vertical-align: middle;"></span>
+      </div>
+
+      <section class="actions">
+        <img src="imagens/Google.png" alt="Login com Google" width="30" />
+        <img src="imagens/Facebook.png" alt="Login com Facebook" width="50" />
+        <img src="imagens/Apple.png" alt="Login com Apple" width="50" />
+      </section>
+
+      <button type="submit">Entrar</button>
+
+      <p class="signup-text">
+        Não tem conta?
+        <a href="cadastro.html">Cadastre-se</a>
+      </p>
+    </form>
+  </main>
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      window.location.href = "inicio.html";
+    });
+  </script>
+
+</body>
+
+</html>
+</form>
+</main>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+footer {
+  background-color: #7c2323;
+  color: #fff2f2;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+footer section {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fcf2f2;
+  padding-bottom: 5px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  color: #ece6e6;
+}
+
+footer a:hover {
+  color: #ffe187;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff2f2;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.image-area {
+  margin-top: 50px;
+  width: 50%;
+  background-image: url("Imagens/Brusqueta.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.login-box {
+  margin-top: 50px;
+  width: 50%;
+  background-color: #f4c3ca;
+  padding: 40px 40px 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-box h2 {
+  font-family: "Instrument Sans", sans-serif;
+  color: #d30000;
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-box form {
+  width: 100%;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 15px;
+  background-color: #e24f4f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: darkred;
+}

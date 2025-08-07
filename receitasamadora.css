@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7a2a2;
+}
+
+.container {
+  background-color: #fff6f6;
+  padding: 30px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #a00000;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(29, 27, 27, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+.card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #1b1313;
+}
+
+footer {
+  background-color: #7c2323;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+footer section {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fcf2f2;
+  padding-bottom: 5px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ece6e6;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #141212;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.back-arrow {
+  width: 32px;
+  height: 32px;
+}
+.image-area {
+  width: 25%;
+  background-image: url("seta\ vermelhinha.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}

@@ -1,0 +1,45 @@
+body {
+  margin: 1px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  opacity: 0.8;
+}
+video {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+#cobridor {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  background: transparent;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-family: Arial, sans-serif;
+  z-index: 20;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  z-index: 20;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

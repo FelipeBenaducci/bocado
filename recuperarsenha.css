@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff2f2;
+}
+
+header {
+  background-color: #660000;
+  padding: 15px 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu a {
+  color: #ffe187;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+.form-container {
+  width: 68%;
+  margin: 80px auto 100px auto;
+  background-color: #fbf3ed;
+  padding: 60px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(102, 0, 0, 0.4);
+  text-align: center;
+  min-height: 300px;
+}
+
+.form-container h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-container input[type="email"] {
+  width: 80%;
+  padding: 14px;
+  margin-bottom: 25px;
+  background-color: #fbf3ed;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #fbf3ed;
+  color: #660000;
+  border: 1px solid red;
+}
+
+.cancel:hover {
+  background-color: #f0e9e3;
+}
+
+.find {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.find:hover {
+  background-color: darkred;
+}
+
+footer {
+  background-color: #7c2323;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+footer section {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fcf2f2;
+  padding-bottom: 5px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ece6e6;
+}
+
+footer a:hover {
+  color: #d2b721;
+}

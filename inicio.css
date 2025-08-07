@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornsilk;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.titulo-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  width: 380px;
+  margin-bottom: 40px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1800px;
+  margin-top: 2%;
+  border-radius: 20px;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container::after {
+  right: -50px;
+}
+
+.ticket-button {
+  cursor: pointer;
+  background-color: #d91e1e;
+  color: #fff3f3;
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 8px;
+  transition: background-color 0.3s;
+  clip-path: polygon(
+    85% 0%,
+    100% 15%,
+    100% 85%,
+    85% 100%,
+    15% 100%,
+    0% 85%,
+    0% 10%
+  );
+}
+
+.ticket-button:hover {
+  background-color: #a21e1e;
+}
+
+.fundo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.item {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+}
+
+.bolo {
+  border-radius: 10px;
+  top: 50px;
+  left: 13%;
+}
+
+.pizza {
+  border-radius: 10px;
+  top: 50px;
+  left: 33%;
+}
+
+.bombom {
+  border-radius: 10px;
+  top: 50px;
+  left: 53%;
+}
+
+.lasanha {
+  border-radius: 10px;
+  top: 50px;
+  left: 73%;
+}
+.imglogo {
+  margin-right: 90%;
+  margin-top: 1%;
+}
+
+.logo {
+  margin-left: -80%;
+}
+
+.containers {
+  border-radius: 50px;
+}
+

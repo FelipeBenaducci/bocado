@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recuperar Senha</title>
+  <link rel="stylesheet" href="recuperarsenha.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="login.html">Home</a></li>
+        <li><a href="#">Chef's</a></li>
+        <li><a href="sobrenos.html">Sobre Nós</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main class="form-container">
+    <h2>Insira seu e-mail e mude sua senha</h2>
+    <form id="recuperarForm">
+      <label for="email"></label>
+      <input id="email" type="email" placeholder="Digite seu e-mail" required />
+      <div class="button">
+        <button type="button" class="cancel" id="btnCancelar">Cancelar</button>
+        <button type="submit" class="find">Encontrar</button>
+      </div>
+    </form>
+  </main>
+
+  <script>
+    // Botão Cancelar
+    document.getElementById('btnCancelar').addEventListener('click', function () {
+      window.location.href = "login.html";
+    });
+
+    // Botão Encontrar (submit do formulário)
+    document.getElementById('recuperarForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      window.location.href = "login.html";
+    });
+  </script>
+
+
+
+  <footer>
+    <section>
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Privacidade</a></li>
+      </ul>
+    </section>
+    <section>
+      <h4>Ajuda</h4>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Suporte</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </section>
+    <section>
+      <h4>Redes Sociais</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </section>
+  </footer>
+</body>
+
+</html>
